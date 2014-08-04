@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #
+
 # Python Snippets documentation build configuration file, created by
 # sphinx-quickstart on Mon Aug  4 01:30:37 2014.
 #
@@ -19,6 +20,7 @@ import os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('..'))
 
 # -- General configuration ------------------------------------------------
 
