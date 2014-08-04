@@ -6,12 +6,15 @@
 Welcome to Python Snippets's documentation!
 ===========================================
 
+This repository contains small snippets of Python code and Python libraries which I have either 
+written to serve a utility purpose or which I think serve as a nice example of some educational
+or other concept.
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
    
-   intro
    EasyCocoaFileDialog/module
 
 
