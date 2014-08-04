@@ -13,11 +13,18 @@ The module requires the Cocoa module, which is part of `PyObjC <https://pythonho
 
 .. tip:: PyObjC appears to be included with OS X, at least as of 10.10 Yosemite.
 
-========
-Examples
-========
+=======
+Example
+=======
 
-For example code, see the module's **main** method.
+::
+
+   prompt = "Please pick the input data file."
+   filename = chooseFileToOpen(prompt)
+   if filename is None:
+      print "The user clicked Cancel."
+   else:
+      print "The user picked: %s" % filename
 
 =========
 Reference
