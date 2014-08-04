@@ -41,7 +41,5 @@ def main():
 	else:
 		print "The user picked: %s" % filename
 
-
-
 if __name__ == '__main__':
 	main()
