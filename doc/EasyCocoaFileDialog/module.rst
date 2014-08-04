@@ -1,7 +1,13 @@
-EasyCocoaFileDialog Module
-==========================
+EasyCocoaFileDialog
+===================
 
-This module provides an easy abstraction of NSOpenPanel and NSSavePanel for 
+This module provides an easy abstraction of NSOpenPanel and NSSavePanel for
+Python script writers that would like to prompt the user for input/output files
+without the ugliness of using the command line. 
+
+The module requires the Cocoa module, which is part of `PyObjC <https://pythonhosted.org/pyobjc/>`_.
+
+.. tip:: PyObjC appears to be included with OS X, at least as of 10.10 Yosemite.
 
 .. py:module:: EasyCocoaFileDialog
    :synopsis: Module that shows Cocoa file dialogs for selecting paths.
